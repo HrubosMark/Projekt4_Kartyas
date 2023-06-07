@@ -1,3 +1,14 @@
-Cigany;Ghost
-Gabika;Janika
-Zsepikesz;Petikesz
+Szabályos-e ha egyirányú útról balra kíván kanyarodni és a balra kanyaródás elött az úttest balszéléhez húzódik.;igen
+Amelyik útkereszteződésre kanyarodik a jármű, ott az áthaladó gyalogosok részére elsőbbséget kell-e adni?;igen,
+Az alábbiak közül melyik jármű minősül gépkocsinak?-négykerekű motorkerékpár, -lassú jármű, -trolibusz, -segédmotoros kerékpár vagy -mezőgazadásig vontató?;trolibusz 
+Szabad-e kétkerekű jármű vezetőjének menet közben kézben tartott mobiltelefont használni?;Nem
+A kerékpárt kivéve vezethet-e járművet, aki szeszesital fogyasztásából származó alkohol befolyása alatt áll?;Nem
+Szabad-e járművel az utat és tartozékai rongálni, szennyezni?;Nem
+A jármű hatósági engedélyét külföldön, járművezetőnek vezetés közben…;magánál kell tartani
+Szabad-e lakott területen kívül tompított fényszóró helyett folyamatosan távolsági fényszórót használni?;igen, ha nem vakítja el a többi közlekedőt
+Mi a járművezető kötelessége, ha a rendőr jelzései ellentétesek valamely közúti jelzéssel?;követni kell a rendőr jelzéseit
+Mi a járművezető teendője, ha a jelzőőr jelzőtárcsával jelzést ad?;meg kell állni
+Mikor nem kell figyelembe venni az elsőbbséget szabályozó jelzőtáblák jelzéseit?;ha a forgalmat fényjelző készülék irányítja.
+Elhelyezhetők-e közúti jelzőtáblák fényvisszaverő sárga háttérben?;igen
+Szabad-e segédmotoros kerékpárral autópályán vagy autóúton közlekedni?;igen
+Köteles-e elsőbbséget adni egyenrangú útkereszteződésben egy jobbról érkező kerékpáros részére?;igen

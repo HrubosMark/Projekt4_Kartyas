@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<img src="{{url_for('static', filename='img/alul1.jpg')}}" alt="felso_resz" title="felso_resz" class="w-100">
 <div class="container-fluid mt-5 pt-5">
     <h1 class="text-center mt-2 mb-5">Kártyák</h1>
-    <div class="row mb-4 mt-5">
+    <div class="row mb-4 mt-5" id="maincardholder">
         <div class="col-6 mx-auto">
             <a href="javascript:flipCard()" class="col-10 col-md-6 h5" style=" text-decoration: none; color: black;">
-                <div class="tab-content text-center" id="cardsholder" style="background-color: #89CFF0;">
+                <div class="tab-content text-center text-uppercase" id="cardsholder" style="background-color: #89CFF0;">
                     {% for i in range(lista_hossz) %}
                         {% if i == 0 %}
                         <div class="quizcard tab-pane fade show active d-flex align-items-center justify-content-center p-5" id="card-{{ i }}">
@@ -31,18 +32,19 @@
     </div>
     <div class="row my-5">
         <div class="col-2 col-md-1 mx-auto">
-            <a href="javascript:prevCard()" class="p-2 mx-auto">
+            <a href="javascript:prevCard()" class="p-2 mx-auto navbtns">
                 Elöző
             </a>
         </div>
         <div class="col-2 col-md-1 mx-auto">
-            <a href="javascript:nextCard()" class="p-2 mx-auto">
+            <a href="javascript:nextCard()" class="p-2 mx-auto navbtns">
                 Következő
             </a>
         </div>
     </div>
 </div>
 <script src="{{url_for('static', filename='js/card.js')}}"></script>
+<img src="{{url_for('static', filename='img/felul1.jpg')}}" alt="also_resz" title="also_resz" class="w-100">
 {% endblock %}
 </body>
 

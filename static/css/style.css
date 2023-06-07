@@ -1,3 +1,7 @@
+* {
+    user-select: none;
+}
+
 footer {
     height: 2cm;
 }
@@ -5,11 +9,22 @@ footer {
 ul {
     list-style-position: inside;
 }
+
 #cardsholder {
     border: 0.3px solid gray;
     border-radius: 10px;
-  }
+}
 
-  .tartalom {
+.tartalom {
     min-height: 78vh;
-  }
+}
+
+.navbtns{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#maincardholder {
+    min-height: 25vh;
+}

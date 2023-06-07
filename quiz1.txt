@@ -1,3 +1,24 @@
-Gym;ASD
-Gabika;Janika
-Zsepikesz;Petikesz
+fekvenyomás;Mell izom
+tárogatás;Mell izom
+döntött pados fekvenyomás;Mell izom
+fordított döntött pados fekvenyomás;Mell izom
+preacher curl;Bicepsz
+preacher curl gép;Bicepsz
+Spider Curl;Bicepsz
+Barbell Curl;Bicepsz
+Letolás;Tricepsz
+fejfölötti súlyzó emelés;Tricepsz
+Cable pushdown csigán;Tricepsz
+egyen rúddal letolás csigán;Tricepsz
+lehúzás;hát
+evezés;hát
+húzódzkodás;hát
+tárogatás hátrafele;hát
+gépes felnyomás;váll
+köteles lábközötti felhúzás;váll
+lateral raise;váll
+tárogató vízszintes fogással hátrafele;váll
+guggolás;láb
+vádli emelés;láb
+horizontal curl;láb
+leg extension;láb

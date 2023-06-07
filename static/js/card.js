@@ -82,13 +82,15 @@ prevCard = function() {
         document.getElementById('card-' + currentCardInt).classList.add('show');
         document.getElementById('card-' + currentCardInt).classList.add('active');
         document.getElementById('card-' + currentCardInt).classList.add('d-flex');
-    }
 
-    // If card front is showing, set cardquizcard to background-color: #fff
-    if (document.getElementById('card' + currentCardInt + 'front').classList.contains('d-none')) {
-        document.getElementById('cardsholder').style.backgroundColor = '#17D82B';
+        // If card front is showing, set cardquizcard to background-color: #fff
+        if (document.getElementById('card' + currentCardInt + 'front').classList.contains('d-none')) {
+            document.getElementById('cardsholder').style.backgroundColor = '#17D82B';
+        }
+        else {  
+            document.getElementById('cardsholder').style.backgroundColor = '#89CFF0';
+        }
     }
-    else {  
 }
 
 // nextCard function
