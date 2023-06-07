@@ -5,3 +5,11 @@ footer {
 ul {
     list-style-position: inside;
 }
+#cardsholder {
+    border: 0.3px solid gray;
+    border-radius: 10px;
+  }
+
+  .tartalom {
+    min-height: 78vh;
+  }

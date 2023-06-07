@@ -8,11 +8,25 @@ app = Flask(__name__)
 def home():
     return render_template("home.html", title="Főoldal")
 
-@app.route("/kartya")
-def kartya():
-    lista = [["asd", "asddf"],["cihjga", "a"]]
+@app.route("/kresz")
+def kresz():
+    with open('quiz.txt', 'r', encoding='utf-8') as f:
+        lista = []
+        for sor in f:
+            lista.append(sor.strip().split(';'))
 
-    return render_template("kartya.html", title="Quiz", lista=lista)
+    lista_hossz = len(lista)
+    return render_template("kartya.html", title="Quiz", lista=lista, lista_hossz=lista_hossz)
+
+@app.route("/gym")
+def gym():
+    with open('quiz1.txt', 'r', encoding='utf-8') as f:
+        lista = []
+        for sor in f:
+            lista.append(sor.strip().split(';'))
+
+    lista_hossz = len(lista)
+    return render_template("kartya.html", title="Quiz", lista=lista, lista_hossz=lista_hossz)
 
 if __name__ == '__main__':
     app.run(host=hostIp, port=hostPort, debug=False)
